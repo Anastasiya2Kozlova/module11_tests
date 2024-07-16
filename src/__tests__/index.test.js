@@ -1,4 +1,4 @@
-import { getPercents } from "/Users/nastas/Git/module11_tests/src/index";
+import { getPercents } from "../index.js";
 
 describe("negative tests for getPercents function", () => {
   it("Enter a negative number as a percentage.", () => expect(getPercents(-10,200)).toBe("В качестве процента передано некорректное число"));
